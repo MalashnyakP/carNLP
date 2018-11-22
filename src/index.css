@@ -12,3 +12,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.container-header {
+    background-color: purple;
+    /*width: 500px;
+    height: 500px;*/
+    width: auto !important; /*just to override your inline CSS */
+    left: 0;
+    right: 0;
+    word-wrap: break-word;
+    height: 100px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0px;
+    color: white;
+    padding-top: 20px;
+    font-size: 44px;
+    font-family: Helvetica;
+}
