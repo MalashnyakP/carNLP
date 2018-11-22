@@ -1,6 +1,7 @@
 'use strict';
 
 import React from 'react';
+import DialogFlow from './DialogFlow';
 
 export class DialogFlowSector extends React.Component {
     constructor(props) {
@@ -10,7 +11,7 @@ export class DialogFlowSector extends React.Component {
     render() {
         return (
             <div className={this.props.className}>
-                <h1> Hello </h1>
+                <DialogFlow />
             </div>
         );
     }
