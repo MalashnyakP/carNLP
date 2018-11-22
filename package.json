@@ -16,6 +16,9 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "devDependencies": {
+    "bootstrap": "3.3.7"
+  },
   "browserslist": [
     ">0.2%",
     "not dead",
